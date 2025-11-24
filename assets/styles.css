@@ -1,0 +1,239 @@
+body {
+    background-image:   url(HVWikiBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* el header */
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+
+    
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+nav a:hover{
+    color:purple;
+}
+
+@media (max-width:700px){
+    .enlaces{
+        display: none;
+    }
+
+
+    header{
+    flex-direction:column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+/* termina aca */
+
+
+
+.info-card {
+    display: block;
+    align-items: center;        
+    gap: 20px;                  
+    background: black;
+    padding: 20px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 20px auto; 
+    border: 3px solid white;
+}
+
+
+.info-card img {
+    width: 500px;             
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.info-text {
+    max-width: 300px;
+    color: white;         
+}
+
+
+@media (max-width: 700px) {
+    .info-card {
+        flex-direction: column;  
+        text-align: center;      
+    }
+
+    .info-text {
+        max-width: 100%;         
+    }
+}
+
+
+.section-wrapper {
+    background-color: rgba(0, 0, 0, 0.30);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 40px auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.section-title {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+
+.extra {
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.extra img {
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+}
+
+.extra h2,
+.extra p {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+}
+
+
+.characters{
+    background-color: white;
+    display: inline;
+
+}
+
+
+
+
+.group-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 40px auto;
+
+    max-width: 700px;
+    width: 100%;
+}
+
+
+.group-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 32px;
+}
+
+
+.mini-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;        
+    box-sizing: border-box;
+}
+
+
+.mini-block img {
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.mini-text {
+    color: white;
+    max-width: 350px;
+}
+
+.mini-text h2 {
+    margin: 0 0 10px 0;
+}
+
+
+@media (max-width: 700px) {
+    .mini-block {
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+    }
+
+    .mini-text {
+        max-width: 100%;
+    }
+}
+
+
+
+.formulario{
+    display: grid;
+    gap: 16px;
+    max-width: 360px;
+    margin: 90px auto;
+    border: 1px solid white;
+    padding: 40px 20px;
+    background-color: black;
+    color: white;
+}
+
+.formulario label{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

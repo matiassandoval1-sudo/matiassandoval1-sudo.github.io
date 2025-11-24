@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <header>
+        <a href="./" class="logo">
+            <img src="logo.png" alt="HorrorVale!"
+            class="logo-img">
+            <h2 class="logo-nombre">HorrorVale!</h2>
+        </a>
+        <nav class="enlaces">       
+            <a href="./">home</a>
+            <a href="./about.html">Sobre Nosotros</a>
+            <a href="./contact.html">contact</a>
+            <a href="./aboutgame.html">Sobre El Juego</a>
+        </nav>
+    </header>
+
+    <div>
+        <h2>contactanos!</h2>
+    </div>
+
+    <form class="formulario" action="https://aterbonus.dev/api/toys/forms" method="post">
+        <label>
+            Nombre completo:
+            <input type="text" name="name" minlength="2" maxlength="200" required>
+        </label>
+        <label>
+            E-mail:
+            <input type="email" name="email" maxlength="200" required>
+        </label>
+        <label>
+            Asunto:
+            <input type="text" name="subject" minlength="2" maxlength="200" required>
+        </label>
+        <label>
+            Contenido:
+            <input type="text" name="content" minlength="2" maxlength="1000" required>
+        </label>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>
